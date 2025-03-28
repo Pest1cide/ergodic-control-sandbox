@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
   - family-names: [Sun, Murphey]
-    given-names: [Muchen, Todd]
+    given-names: [Max Muchen, Todd]
     orcid: [0000-0002-3704-6315, 0000-0003-2262-8176]
 title: "Ergodic Control Sandbox"
 version: "0.0.1"

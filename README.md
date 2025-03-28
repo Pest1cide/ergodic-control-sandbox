@@ -1,5 +1,6 @@
 # ergodic-control-sandbox
-Sandbox code for "Tutorial on Ergodic Control @ ICRA 2024"
+<!-- Sandbox code for "Tutorial on Ergodic Control @ ICRA 2024" -->
+Standalone tutorials for ergodic control.
 
 ## Table of contents
 
@@ -9,6 +10,7 @@ Sandbox code for "Tutorial on Ergodic Control @ ICRA 2024"
 | **Closed-Form Ergodic Control** <br> <img src="images/smc_ergodic_control.gif" alt="drawing" width="240"/> | [[Jupyter Notebook]](notebooks/smc_ergodic_control.ipynb) <br> [[Google Colab]](https://colab.research.google.com/github/MurpheyLab/ergodic-control-sandbox/blob/main/notebooks/smc_ergodic_control.ipynb) | 
 | **Trajectory Optimization for Ergodic Control** <br> <img src="images/ilqr_iters.gif" alt="drawing" width="250"/> | [[Jupyter Notebook]](notebooks/ilqr_ergodic_control.ipynb) <br> [[Google Colab]](https://colab.research.google.com/github/MurpheyLab/ergodic-control-sandbox/blob/main/notebooks/ilqr_ergodic_control.ipynb) |
 | **Ergodic Control with Kernel Functions** <br> <img src="images/kernel_iters.gif" alt="drawing" width="250"/> | [[Jupyter Notebook]](notebooks/kernel_ergodic_control.ipynb) <br> [[Google Colab]](https://colab.research.google.com/github/MurpheyLab/ergodic-control-sandbox/blob/main/notebooks/kernel_ergodic_control.ipynb) |
+| **Kernerl Ergodic Search on Lie Groups** <br> <img src="images/kes_so3.gif" alt="drawing" width="250"/> | [[Jupyter Notebook]](notebooks/kernel_ergodic_control_SO3.ipynb) <br> [[Google Colab]](https://colab.research.google.com/github/MurpheyLab/ergodic-control-sandbox/blob/main/notebooks/kernel_ergodic_control_SO3.ipynb) |
 | **Ergodic Metric for Point Cloud Registration** <br> <img src="images/fls_registration.gif" alt="drawing" width="400"/> | [[GitHub Repo]](https://github.com/MurpheyLab/FLS) |  
 
 
@@ -19,16 +21,16 @@ The implementations contained herein are copyright (C) 2024 - 2025 by Muchen Sun
 If you use the sandbox in your research, please cite this repository. You can see the citation information at the right side panel under "About". The BibTeX file is attached below:
 ```
 @software{Sun_Ergodic_Control_Sandbox_2024,
-author = {["Sun", "Murphey"], Muchen, Todd},
-license = {GPL-3.0},
-month = jul,
-title = {{Ergodic Control Sandbox}},
-url = {https://github.com/MurpheyLab/ergodic-control-sandbox},
-version = {0.0.1},
-year = {2024}
+    author = {["Sun", "Murphey"], Max Muchen, Todd},
+    license = {GPL-3.0},
+    month = jul,
+    title = {{Ergodic Control Sandbox}},
+    url = {https://github.com/MurpheyLab/ergodic-control-sandbox},
+    version = {0.0.1},
+    year = {2024}
 }
 ```
 
-Contact: muchen@u.northwestern.edu
+Contact: Max Muchen Sun ([msun@u.northwestern.edu](msun@u.northwestern.edu))
 
 Lab Info: Prof. Todd D. Murphey, [Interactive & Emergent Autonomy Lab](https://murpheylab.github.io/) / [Center for Robotics and Biosystems](https://robotics.northwestern.edu/) / Northwestern University
